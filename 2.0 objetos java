@@ -1,0 +1,20 @@
+let carro = {
+  marca:"fusca",
+  modelo: 88,
+  ano: 1988,
+  cor: "amarelo",
+  ativo: function(){
+    return   console.log (" o carro " + this.marca + " esta ligado");
+}
+    
+}
+
+console.log(carro.marca + " "+ carro.modelo)
+
+carro.cor = "branco";
+
+carro.preco = 99999;
+console.log (carro.cor + " " + carro.preco )
+
+
+console.log(carro.ativo())
