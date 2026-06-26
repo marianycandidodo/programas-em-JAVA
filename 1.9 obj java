@@ -1,0 +1,17 @@
+let usuario = {
+  nome:"Array",
+  email: "array.gmail",
+  idade: 90,
+  estaAtivo: true
+
+}
+console.log(usuario.nome + " " + usuario.email)
+
+ usuario.idade = 91
+ console.log (usuario.idade)
+ 
+ usuario.telefone = 0
+ console.log (usuario.telefone)
+ 
+ usuario.estaAtivo = "false";
+ console.log (usuario.estaAtivo)
