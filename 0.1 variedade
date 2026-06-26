@@ -1,0 +1,16 @@
+let filmes = ["Lorax", "Moranguinho", "Mario"];
+console.log ( filmes );
+
+filmes.push("samara");
+console.log ( filmes );
+
+filmes.unshift("toy story");
+console.log( filmes );
+
+filmes.pop();
+console.log ( filmes );
+
+console.log (filmes [1]);
+
+
+console.log( filmes.length );
