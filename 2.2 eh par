@@ -1,0 +1,8 @@
+const EhPar= function(numero){
+    return numero% 2===0;
+    console.log(EhPar(5));
+    console.log(EhPar(8));
+}
+const EhParArrow = numero=>numero%2===0;
+console.log(EhParArrow(5));
+console.log(EhParArrow(8));
