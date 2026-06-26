@@ -1,0 +1,15 @@
+let nota;
+Number (prompt("digite a nota: ");
+if(nota >= 10){
+    console.log("aprovado");
+}else{
+    console.log("reprovado");
+    Vnota();
+    function Vnota( nota ){
+    let nota = Number (prompt("digite a nota");
+        if (nota >=10){
+    console.log("aprovado");
+        }else{
+            console.log("reprovado");
+        }
+        return;
