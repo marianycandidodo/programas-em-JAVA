@@ -1,0 +1,6 @@
+A=Number(prompt("digite o numero de itens: "));
+if(A>=5){
+    console.log("tem direito a desconto");
+}else{
+    console.log("nao tem direito a desconto");
+}
